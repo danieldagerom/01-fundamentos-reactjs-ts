@@ -29,9 +29,9 @@ const posts = [
       role: "Tech Lead"
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋', },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      { type: 'link',  content: 'jane.design/doctorcare' },       
+      { type: 'paragraph', content: 'Oi Pessoal', },
+      { type: 'paragraph', content: 'Acabei de descobrir algumas coisas interessantes sobre a AWS, recomendo a visita!'},
+      { type: 'link',  content: 'lucas.com/aws' },       
     ],
     publishedAt: new Date('2023-01-27 20:00:00'),
   },
@@ -43,11 +43,25 @@ const posts = [
       role: "Front End Engineer",
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋', },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      { type: 'link',  content: 'jane.design/doctorcare' },       
+      { type: 'paragraph', content: 'Boas turma!', },
+      { type: 'paragraph', content: 'Se liga nessa nova abordagem de CSS! Mudou muito pra mim!'},
+      { type: 'link',  content: 'igor.com/css' },       
     ],
     publishedAt: new Date('2023-01-14 07:15:00'),
+  },
+  {
+    id: 4,
+    author: {
+      avatarUrl: "https://github.com/pedro-rodiguero.png",
+      name: "Pedro Menezes Rodiguero",
+      role: "Software Engineer",
+    },
+    content: [
+      { type: 'paragraph', content: 'Eae gente boa!', },
+      { type: 'paragraph', content: 'Aslan fez uma bagunça em casa, acabei desenvolvendo um robô faxineiro! Open Source pra quem quiser...'},
+      { type: 'link',  content: 'superaslan.com/faxina' },       
+    ],
+    publishedAt: new Date('2023-01-16 09:20:00'),
   },
 ]
 
